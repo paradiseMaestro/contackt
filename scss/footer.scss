@@ -1,0 +1,250 @@
+
+.info_map{
+    position: relative;
+        height: 500px;
+        overflow: hidden;
+    // background: linear-gradient(180deg, rgba(253, 253, 254, 0.04) 52.32%, rgba(253, 253, 254, 0.92) 71.04%, #FDFDFE 92.44%);
+    h2{
+        margin-top: 20px;
+        margin-bottom: auto;
+        text-align: left;
+}
+}
+
+.z-show{
+    position: relative;
+    z-index: 3;
+}
+
+.bottom_info_text{
+    display: flex;
+}
+.info-foot{
+    margin-left: 140px;
+}
+.content_map{
+    // margin: 0 auto;
+    // position: absolute;
+    width: 1200px;
+    height: 720px;
+    // top: 0;
+    // right: 0;
+    // left: 0;
+    // bottom: 0;
+    // padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    // justify-content: space-between;
+}
+.info_map_wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+.bg{
+    background: linear-gradient(180deg, rgba(253, 253, 254, 0.04) 52.32%, rgba(253, 253, 254, 0.92) 71.04%, #FDFDFE 92.44%);
+}
+.info_map_wrapper{
+    // background:none;
+}
+
+
+
+
+.map_block{
+    position: relative;
+    z-index: 2;
+}
+.location{
+    max-width: 585px;
+}
+.location_telf{
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+}
+.location_telf:hover{
+    color: #333333;
+}
+.location__inf{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+.info-foot__text{
+    color: #36ab32;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.info-foot__text:hover{
+    color: #36ab32;
+}
+.info-foot p{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+.location_adr{
+color: #333333;
+font-size: 24px;
+font-weight: 400;
+}
+
+
+// ---------------
+
+
+.foot_text{
+    margin: 0;
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 400;
+}
+.content_link{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    a{
+        color: #dadada;
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+}
+.content-footer{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info_map h2 {
+    padding-top: 120px;
+}
+
+
+
+
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+}
+
+
+// -----------------------------
+
+
+
+.main-text_contacts{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    color: #333;
+
+    max-width: 1200px;
+    margin: 120px auto;
+    width: 100%;
+}
+
+
+
+
+
+.carts-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    a{
+text-decoration: none;
+        font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+    }
+}
+
+
+.text-name{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+margin-bottom: 32px;
+color: #333333;
+}
+
+.img-content{
+    margin-bottom: 40px;
+}
+
+
+.tell-link{
+    img{
+        margin-right: 15px;
+    }
+}
+.carts-item{
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 600px){
+    .img-content{
+        width: 165px;
+        height: 165px;
+        img{
+            width: 165px;
+            height: 165px;
+        }
+    }
+.main-text_contacts{
+    margin: 30px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+    padding: 0 15px;
+}
+    .text-name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #333333;
+    }
+    .carts-item{
+        a{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #333333;
+        }
+    }
+}
